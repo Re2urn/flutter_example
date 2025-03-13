@@ -9,10 +9,31 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  flutter_bloc: ^9.1.0
+  dio: ^5.5.0
+  build_runner: ^2.3.3
+  rxdart: ^0.28.0
+  bloc: ^9.0.0
+  bloc_test: ^10.0.0
+  equatable: ^2.0.5
+  url_launcher: ^6.1.11
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  
 
 dev_dependencies:
+  flutter_native_splash: 2.2.19
+  
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 flutter:
   uses-material-design: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash/R.png
+assets:
+  - assets/splash/
+
+  
